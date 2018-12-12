@@ -3,7 +3,7 @@
   }
 
 body {
-    background: url(../images/grunge_wall.png);
+    background: url(../images/grunge.png);
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     overflow: auto;
@@ -212,6 +212,30 @@ textarea {
 
 button:hover {
     color: red;
+}
+
+@media screen and (max-width: 980px) {
+
+  
+    .wrap {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .wrap {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .wrap {
+        width: 100%;
+    }
+    header nav {
+        position:static;
+    }
 }
 
 
