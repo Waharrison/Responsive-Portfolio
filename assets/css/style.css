@@ -214,6 +214,7 @@ button:hover {
     color: red;
 }
 
+
 @media screen and (max-width: 980px) {
 
   
@@ -221,11 +222,76 @@ button:hover {
         width: 100%;
     }
 
+    .box-1 {
+        float: left;
+        position: relative;
+    
+    }
+
+    .box-2 {
+        float: left;
+        position: relative;
+    }
+
+    .box-3 {
+        float: left;
+        position: relative;
+       right: 0px;
+       top: -75px;
+    }
+
+    .box-4 {
+        float: left;
+        position: relative;
+       left: 25px;
+       top: -75px;
+    }
+
+    .box-5 {
+        float: left;
+        position: relative;
+       right: 0px;
+       top: -145px;
+    }
+
+
 }
 
 @media screen and (max-width: 768px) {
     .wrap {
         width: 100%;
+    }
+
+    .box-1 {
+        float: left;
+        position: relative;
+    
+    }
+
+    .box-2 {
+        float: left;
+        position: relative;
+    }
+
+    .box-3 {
+        float: left;
+        position: relative;
+       right: 0px;
+       top: -75px;
+    }
+
+    .box-4 {
+        float: left;
+        position: relative;
+       left: 25px;
+       top: -75px;
+    }
+
+    .box-5 {
+        float: left;
+        position: relative;
+       right: 0px;
+       top: -145px;
     }
 }
 
@@ -235,6 +301,31 @@ button:hover {
     }
     header nav {
         position:static;
+    }
+
+    .box-1 {
+        float: left;
+        position: relative;
+    }
+
+    .box-2 {
+        float: left;
+        position: relative;
+    }
+
+    .box-3 {
+        float: left;
+        position: relative;
+    }
+
+    .box-4 {
+        float: left;
+        position: relative;
+    }
+
+    .box-5 {
+        float: left;
+        position: relative;
     }
 }
 
